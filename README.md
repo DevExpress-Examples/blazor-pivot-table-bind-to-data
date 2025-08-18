@@ -10,8 +10,6 @@ This example demonstrates how to use [Entity Framework Core](https://learn.micro
 
 ![Bind DevExpress Blazor Pivot Table to Data with Entity Framework Core](/images/bind-to-data.png)
 
-Refer to the following topic for more information: [Bind Components to Data with Entity Framework Core](https://docs.devexpress.com/Blazor/403167/common-concepts/data-binding/bind-components-to-data-with-entity-framework-core).
-
 ## Files to Review
 
 - [Index.razor](./CS/PivotTableBindToData/Pages/Index.razor)
@@ -19,6 +17,7 @@ Refer to the following topic for more information: [Bind Components to Data with
 
 ## Documentation
 
+- [Bind Blazor Components to Data with Entity Framework Core](https://docs.devexpress.com/Blazor/403167/common-concepts/data-binding/bind-components-to-data-with-entity-framework-core)
 - [Get Started with the Pivot Table](https://docs.devexpress.com/Blazor/405246/components/pivottable/get-started-with-pivottable)
 - [Bind the Pivot Table to Data](https://docs.devexpress.com/Blazor/405475/components/pivottable/bind-to-data)
 
