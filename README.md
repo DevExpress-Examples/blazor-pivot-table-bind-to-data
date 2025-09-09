@@ -28,3 +28,4 @@ This example binds the [DevExpress Blazor Pivot Table](https://docs.devexpress.c
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
