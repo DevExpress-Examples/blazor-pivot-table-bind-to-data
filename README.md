@@ -21,7 +21,7 @@ This example uses [Entity Framework Core](https://learn.microsoft.com/en-us/ef/c
 - [Bind the Pivot Table to Data](https://docs.devexpress.com/Blazor/405475/components/pivottable/bind-to-data)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-pivot-table-bind-to-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-pivot-table-bind-to-data&~~~was_helpful=no)
 
