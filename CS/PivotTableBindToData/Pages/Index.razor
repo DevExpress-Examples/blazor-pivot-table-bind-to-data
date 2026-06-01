@@ -1,5 +1,6 @@
 ﻿@page "/"
 
+@using PivotTableBindToData.Data
 @using PivotTableBindToData.Northwind
 @using Microsoft.EntityFrameworkCore
 @using System.Drawing;
@@ -28,7 +29,7 @@
 
 @code {
     NorthwindContext Northwind { get; set; }
-    IEnumerable<object> Data { get; set; }
+    IEnumerable<PivotRow> Data { get; set; }
 
     protected override async Task OnInitializedAsync() {
         Northwind = NorthwindContextFactory.CreateDbContext();
@@ -41,7 +42,7 @@
         Data = (from c in categories
                       join p in products on c.CategoryId equals p.CategoryId
                       join od in orderDetails on p.ProductId equals od.ProductId
-                      select new {
+                      select new PivotRow{
                           CategoryName = c.CategoryName,
                           ProductName = p.ProductName,
                           UnitPrice = p.UnitPrice,
