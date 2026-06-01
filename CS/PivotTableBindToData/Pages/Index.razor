@@ -10,8 +10,8 @@
 <div>
     <DxPivotTable Data="Data">
     <Fields>
-        <DxPivotTableField Field="CategoryName" Area="@PivotTableArea.Row" /> 
-        <DxPivotTableField Field="ProductName"  Area="@PivotTableArea.Row" />
+        <DxPivotTableField Field="CategoryName" Area="@PivotTableArea.Row" SummaryType="PivotTableSummaryType.CountDistinct"/> 
+        <DxPivotTableField Field="ProductName"  Area="@PivotTableArea.Row" SummaryType="PivotTableSummaryType.CountDistinct"/>
         <DxPivotTableField Field="OrderDate" Area="@PivotTableArea.Column" GroupInterval="@PivotTableGroupInterval.DateYear" Caption="Year" />
         <DxPivotTableField Field="OrderDate" Area="@PivotTableArea.Column" GroupInterval="@PivotTableGroupInterval.DateQuarter" Caption="Quarter" >
             <ValueTemplate>
@@ -19,8 +19,8 @@
             </ValueTemplate>
             </DxPivotTableField>
         <DxPivotTableField Field="UnitPrice" Area="@PivotTableArea.Data" SummaryType="@PivotTableSummaryType.Sum" />
-        <DxPivotTableField Field="ShipCountry"  Area="@PivotTableArea.Filter"/>
-        <DxPivotTableField Field="ShipCity" Area="@PivotTableArea.Filter" />
+        <DxPivotTableField Field="ShipCountry"  Area="@PivotTableArea.Filter" SummaryType="PivotTableSummaryType.CountDistinct"/>
+        <DxPivotTableField Field="ShipCity" Area="@PivotTableArea.Filter" SummaryType="PivotTableSummaryType.CountDistinct" />
     </Fields>
 </DxPivotTable>
 
